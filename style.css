@@ -11,6 +11,24 @@ p {
   color:#0D1A26;
 }
 
+/*for unordered lists */
+ul {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 200%;
+  font-style: italic;
+  color:#0D1A26;
+}
+
+/* For making body headings bold */
+.bodyHeading {
+  font-weight: 600;
+}
+/* For making body text italicized */
+.bodyText {
+  font-style:italic;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -25,20 +43,64 @@ h2 {
   font-size: 350%;
   color:#03588c;
   margin:5% 10% 0px 10%;
+  vertical-align:top;
 }
 
 /* Introduction Text Alignment */
 #introduction p {
   margin: auto 50% 10% 10%;
   font-size: 250%;
+  vertical-align: top;
 }
 
+/*BACKGROUND SECTION */
+/*horizontally align header and text */
+#background {
+  display: flex;
+}
+
+#background h2 {
+  width: 20%;
+}
 /* Background section paragraph text alignment */
 #background p {
-  margin:0 10% 0px 33%;
+  width: 80%;
+  margin:5% 10% 5% 0%;
 }
 
+/*SKILLS SECTION */
 /* Skills section paragraph text alignment */
-#skills p {
-  margin:0 10% 0px 33%;
+#skills {
+  display: flex;
+  vertical-align:top;
+}
+
+#skills h2 {
+  width: 20%;
+  margin: 0% 0% 0% 10%;
+  vertical-align:top;
+}
+
+#skill01 {
+  width: 20%;
+  margin: 0% 2% 0 2%;
+  text-align: left;
+  vertical-align:top;
+
+}
+#skill02 {
+  width: 20%;
+  margin: 0 2% 0 2%;
+  text-align: left;
+}
+#skill03 {
+  width: 20%;
+  margin: 0 2% 0 2%;
+  text-align: left;
+}
+
+
+/* EXPERIENCE SECTION */
+#experience {
+  clear: none;
 }
