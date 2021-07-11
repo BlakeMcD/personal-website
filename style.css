@@ -102,5 +102,34 @@ h2 {
 
 /* EXPERIENCE SECTION */
 #experience {
-  clear: none;
+  display: flex;
+}
+
+#experience h2 {
+  margin: 0% 0% 0% 10%;
+  width: 20%;
+}
+
+#jobs {
+  width: 80%;
+}
+
+#jobs .bodyHeading {
+  text-align: left;
+  margin: 0% 0% 0% 10%;
+}
+
+#jobs .bodyText {
+  float: right;
+}
+
+/* FOOTER SECTION */
+footer {
+  background-color: #0D1A26;
+}
+
+footer p {
+  color: #D0e9f2;
+  margin: 5% 0 0% 10%;
+  padding: 5% 0 5% 0%;
 }
