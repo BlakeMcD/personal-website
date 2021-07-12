@@ -49,7 +49,7 @@ h2 {
 
 /* Introduction Text Alignment */
 #introduction p {
-  margin: auto 50% 10% 10%;
+  margin: auto 50% 0% 10%;
   font-size: 250%;
   vertical-align: top;
 }
@@ -59,6 +59,7 @@ h2 {
 #background {
   display: flex;
   background-color: red;
+  margin-top: 10%;
 }
 
 #background h2 {
@@ -69,8 +70,8 @@ h2 {
 #background p {
 
   flex-basis: 70%;
-  margin:0% 0% 0% 0%;
-  padding:0 0% 0% 0%;
+  margin:0% 10% 0% 0%;
+  padding:1% 0 0 0;
   background-color:yellow;
 }
 
@@ -80,6 +81,7 @@ h2 {
 #skills {
   display:flex;
   background-color:green;
+  margin-top: 10%;
 }
 
 #skills h2 {
@@ -102,7 +104,7 @@ h2 {
 }
 #skill03 {
   flex-basis: 30%;
-  margin: 0 0% 0 0%;
+  margin: 0 10% 0 0%;
   text-align: left;
   background-color: yellow;
 }
@@ -111,20 +113,23 @@ h2 {
 /* EXPERIENCE SECTION */
 #experience {
   display: flex;
+  margin-top: 10%;
 }
 
 #experience h2 {
-  margin: 0% 0% 0% 10%;
-  width: 20%;
+  flex-basis: 30%;
+  background-color: peru;
 }
 
 #jobs {
-  width: 80%;
+  flex-basis: 70%;
+  background-color:thistle;
+  margin: 0 10% 0 0;
 }
 
 #jobs .bodyHeading {
   text-align: left;
-  margin: 0% 0% 0% 10%;
+  margin: 0% 0% 0% 0%;
 }
 
 #jobs .bodyText {
